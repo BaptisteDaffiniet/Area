@@ -1,0 +1,19 @@
+{
+  "use": "json to have every errors message at the same place",
+  "message": {
+    "200": "request completed",
+    "201": "user created",
+    "202": "message received",
+    "223": "user connected",
+    "224": "not enough privileges",
+    "225": "error in url parameters",
+    "297": "error when processing call",
+    "298": "no user found",
+    "299": "authentication failed",
+    "400": "bad request",
+    "401": "not authorized",
+    "403": "server refused to continue",
+    "404": "request not found",
+    "405": "request method not authorize"
+  }
+}
