@@ -1,0 +1,62 @@
+.logo h1 {
+    margin: 4% auto;
+    text-align: center;
+    font-size: 2em;
+}
+
+.maj_div {
+    text-align: center;
+    box-shadow: 0px 0px 30px 4px rgba(0,0,0,0.63);
+    margin: 2% 40%;
+    border-radius: 20px;
+    padding: 1.5em;
+}
+
+.maj_div > div {
+    margin-top: 30px;
+    background-color: #cfcfcf;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.info_box {
+    margin: 8px 0;
+}
+
+.info_box button, div button.submit {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.info_box button:hover, div button.submit:hover{
+    font-weight: bold;
+}
+
+.tier_connection div {
+    margin: 8px 0;
+}
+
+.tier_connection div img {
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    align-content: right;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.form-group {
+    position: center;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,105 @@
+.nav-bar {
+    background: #535353;
+    color: white;
+    width: 12em;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-left: 25px;
+    font-size: 2em;
+}
+
+ul.bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+    padding: 20px 30px;
+    text-align: center;
+}
+
+li:hover {
+    background: #747474;
+}
+
+img.logo {
+    vertical-align: middle;
+    height: 20px;
+    width: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button.deconnect {
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+}
+
+.service{
+    color: Black;
+    position: center;
+    text-align:center;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+    margin-left: 11em;
+}
+
+.register {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.register:hover {
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.42);
+}
+
+.service-header span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.1em 1em 4em;
+}
+
+.service-header span h2 {
+    font-size: 3em;
+}
+
+.service-header {
+    text-align: left;
+    padding-left: 13em;
+}
+
+legend {
+    margin-bottom: 20px;
+}
+
+span {
+    font-family: "Helvetica Neue";
+}
+
+.info input, .info textarea{
+    margin: 6px 0;
+    width: 40%;
+}
+
+fieldset {
+    margin-top: 50px;
+}
